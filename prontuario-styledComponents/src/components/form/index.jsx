@@ -6,13 +6,15 @@ export default function Form() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label htmlFor="">
-                Nome do paciente
+            <label
+                htmlFor="">
+                Nome do paciente:
                 <input type="text" />
             </label>
 
-            <label htmlFor="">
-                Nome do paciente
+            <label
+                htmlFor="">
+                Nome do paciente:
                 <input type="number" />
             </label>
 

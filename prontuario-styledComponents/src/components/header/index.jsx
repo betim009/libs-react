@@ -22,8 +22,8 @@ const StyledHeader = styled.div`
 export default function Header({ propsStatus }) {
 
     const handleClick = () => {
-        const { exibir, setExibir } = propsStatus
-        setExibir(!exibir)
+        const { status, setStatus } = propsStatus
+        setStatus(!status)
     }
 
     return (

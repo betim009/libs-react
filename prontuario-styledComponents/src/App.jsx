@@ -16,7 +16,7 @@ function App() {
     <>
       <Header propsStatus={{ status, setStatus }} />
 
-      {exibir ? <Table propsUsuarios={usuarios} /> : <Form />}
+      {status ? <Table propsUsuarios={usuarios} /> : <Form />}
     </>
   )
 }
